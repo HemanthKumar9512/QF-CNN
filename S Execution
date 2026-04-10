@@ -745,17 +745,17 @@ print("="*70)
 qm = all_metrics['QF-CNN (Ours)']
 print(f"""
   ╔══════════════════════════════════════════════════════════╗
-  ║         QF-CNN (Ours) — Final Performance Metrics       ║
+  ║         QF-CNN (Ours) — Final Performance Metrics        ║
   ╠══════════════════════════════════════════════════════════╣
-  ║  Disease Classification Accuracy : {qm['accuracy']:.4f}              ║
-  ║  F1 Score (Macro)                : {qm['f1_macro']:.4f}              ║
-  ║  F1 Score (Weighted)             : {qm['f1_w']:.4f}              ║
-  ║  AUC-ROC Score                   : {qm['auc_roc']:.4f}              ║
-  ║  Dice Coefficient                : {qm['dice']:.4f}              ║
-  ║  IoU Score                       : {qm['iou']:.4f}              ║
-  ║  Stage Classification Accuracy   : {qm['stage_acc']:.4f}              ║
-  ║  PSNR (dB)                       : {qm['psnr']:.2f}               ║
-  ║  SSIM                            : {qm['ssim']:.4f}              ║
+  ║  Disease Classification Accuracy : {qm['accuracy']:.4f}  ║
+  ║  F1 Score (Macro)                : {qm['f1_macro']:.4f}  ║
+  ║  F1 Score (Weighted)             : {qm['f1_w']:.4f}      ║
+  ║  AUC-ROC Score                   : {qm['auc_roc']:.4f}   ║
+  ║  Dice Coefficient                : {qm['dice']:.4f}      ║
+  ║  IoU Score                       : {qm['iou']:.4f}       ║
+  ║  Stage Classification Accuracy   : {qm['stage_acc']:.4f} ║
+  ║  PSNR (dB)                       : {qm['psnr']:.2f}      ║
+  ║  SSIM                            : {qm['ssim']:.4f}      ║
   ╠══════════════════════════════════════════════════════════╣
   ║  Diseases Covered    : Brain Tumor, Alzheimer's,         ║
   ║                        Lung Cancer, Breast Cancer        ║
